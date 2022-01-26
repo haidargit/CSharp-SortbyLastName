@@ -1,4 +1,4 @@
-using System;
+xusing System;
 using System.Globalization;
 
 public class SortByLastName
@@ -7,6 +7,8 @@ public class SortByLastName
    {
       string name1 = "John Peterson";
       string name2 = "Michel Jhonson";
+      string name3 = "Jack Peterson";
+      string name4 = "Jacob Peterson";	
 
       // Get position of space character.
       int index1 = name1.IndexOf(" ");
